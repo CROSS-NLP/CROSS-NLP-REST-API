@@ -11,7 +11,7 @@ Please ensure that the following are installed on your system and docker is runn
 	- Docker (docker requires at least 6gb of memory) 
 	- Git
 
-## Configuration (application.properties)##
+## Configuration (application.properties) ##
 
 The `application.properties` file located in `src/main/resources` enables you to configure numerous properties of the REST API. 
 
