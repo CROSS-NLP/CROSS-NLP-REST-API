@@ -1,0 +1,27 @@
+<svg width="1294" height="216" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+ <title>wave_footer</title>
+ <desc>Created with Sketch.</desc>
+ <defs>
+  <radialGradient id="radialGradient-1" gradientTransform="translate(1.167079,1.101332),scale(0.166924,1.000000),rotate(-170.639853),translate(-1.167079,-1.101332)" r="147.799618%" fy="110.133192%" fx="116.70788%" cy="110.133192%" cx="116.70788%">
+   <stop offset="0%" stop-color="#0069FF"/>
+   <stop offset="2.91250472%" stop-color="#0269FD"/>
+   <stop offset="4.5053357%" stop-color="#0369FC"/>
+   <stop offset="6.00516035%" stop-color="#0468FB"/>
+   <stop offset="25.4821693%" stop-color="#1165EF"/>
+   <stop offset="100%" stop-color="#4457C0"/>
+  </radialGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="135.333333" width="1234.380952" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="#535f75" id="Ressource">
+   <g fill="url(#radialGradient-1)" id="wave_footer">
+    <path stroke="#1c58bf" fill="#48556b" id="Image-Hero-Copy" d="m0,217l1294,0l0,-216c-215.52311,9.9501 -431.02401,14.92515 -646.50269,14.92515c-215.47869,0 -431.31112,-4.97505 -647.49731,-14.92515l0,216z"/>
+   </g>
+  </g>
+ </g>
+</svg>

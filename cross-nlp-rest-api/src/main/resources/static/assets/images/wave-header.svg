@@ -1,0 +1,21 @@
+<svg width="1294" height="140" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+ <title>wave_header</title>
+ <desc>Created with Sketch.</desc>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="none" id="Ressource">
+   <g id="wave_header">
+    <g id="Group-4-Copy">
+     <path opacity="0.15" fill="#535F75" id="Wave" d="m-5,-1l1300,0c-0.15631,26.65678 -0.15631,69.70439 0,129.14284c-309.04042,10.85564 -265.03343,-14.69382 -598.49651,-5.21102c-333.46308,9.4828 -310.8975,20.38543 -701.50349,-2.58902c1,-33.21639 1,-73.66399 0,-121.3428z"/>
+     <path fill="#535F75" id="Wave" d="m1297,-1l-924.70103,0l-376.29897,0c0,60.11952 0,98.47627 0,115.07026c80.39485,-3.20032 154.18641,-7.87384 343.71843,-3.20032c189.53202,4.67353 256.45762,23.36606 531.9601,5.64522c183.66832,-11.81389 325.44214,-10.94459 425.32147,2.6079l0,-120.12306z"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
