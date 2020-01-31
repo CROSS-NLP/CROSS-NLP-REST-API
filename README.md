@@ -46,7 +46,7 @@ The REST API can be deployed using as a runnable Jar or via Docker. See below fo
 
 **Runnable Jar** (this needs modification)
 
-**1.**To run the REST API using the `jar` navigate to the `target` directory and run the following command :
+**1.** To run the REST API using the `jar` navigate to the `target` directory and run the following command :
 
 ```
 java -jar CROSS-NLP-REST-API.jar
