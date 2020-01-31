@@ -14,18 +14,18 @@ import org.eclipse.scava.nlp.tools.predictions.externalExtra.ExternalExtraFeatur
 public class SingleLabelPrediction
 {
 	private String label;
-	private Object id;
+	private String id;
 	private String text;
 	private ExternalExtraFeaturesObject externalExtra;
 	
-	public SingleLabelPrediction(Object id, String text, ExternalExtraFeaturesObject externalExtra)
+	public SingleLabelPrediction(String id, String text, ExternalExtraFeaturesObject externalExtra)
 	{
 		this.id=id;
 		this.text=text;
 		this.externalExtra=externalExtra;
 	}
 	
-	public SingleLabelPrediction(Object id, String text)
+	public SingleLabelPrediction(String id, String text)
 	{
 		this.id=id;
 		this.text=text;
@@ -54,7 +54,7 @@ public class SingleLabelPrediction
 		return label;
 	}
 
-	public Object getId()
+	public String getId()
 	{
 		return id;
 	}

@@ -14,10 +14,10 @@ import java.util.List;
 public class MultiLabelPrediction
 {
 	private List<String> labels; 
-	private Object id; //TODO change from Object to Strings ID 
+	private String id; //TODO change from String to Strings ID 
 	private String text;
 	
-	public MultiLabelPrediction(Object id, String text)
+	public MultiLabelPrediction(String id, String text)
 	{
 		this.id=id;
 		this.text=text;
@@ -38,7 +38,7 @@ public class MultiLabelPrediction
 		return labels;
 	}
 
-	public Object getId()
+	public String getId()
 	{
 		return id;
 	}

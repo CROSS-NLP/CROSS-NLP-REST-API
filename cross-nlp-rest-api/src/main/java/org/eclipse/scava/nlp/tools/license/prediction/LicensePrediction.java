@@ -12,7 +12,7 @@ public class LicensePrediction extends SingleLabelPrediction{
 		super(text);	
 	}
 	
-	public LicensePrediction(Object id, String text) {
+	public LicensePrediction(String id, String text) {
 		super(id, text);
 		
 	}
