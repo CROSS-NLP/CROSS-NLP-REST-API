@@ -2,6 +2,7 @@
 A REST API featuring a collection of Natural Language Processing tools for the software engineering domain.
 
 
+
 ## Prerequisites ##
 
 Please ensure that the following are installed on your system and docker is running before following the steps defined below.
@@ -10,6 +11,8 @@ Please ensure that the following are installed on your system and docker is runn
 	- JDK 8
 	- Docker (docker requires at least 6gb of memory) 
 	- Git
+
+
 
 ## Configuration (application.properties) ##
 
@@ -20,6 +23,8 @@ The `application.properties` file located in `src/main/resources` enables you to
 - **server.port** : allows you to specify the port you want you would like the API to be accesed through. The default value is `8080`.
 
 Full details of all the application properties can be found <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html" target="_blank">here</a>
+
+
 
 ## Build Steps: ##
 
@@ -40,11 +45,15 @@ This ensures that the Maven build has everything necessary to run (and you dont 
 	For UNIX based systems run    :      	./mvnw install
 	For Windows based systems run : 	mvnw.cmd install
 
+
+
 ### Deployment Options ###
 
 The REST API can be deployed using as a runnable Jar or via Docker. See below for instructions. 
 
-**Runnable Jar** (this needs modification)
+
+
+#### Runnable Jar** 
 
 **1.** To run the REST API using the `jar` navigate to the `target` directory and run the following command :
 
@@ -52,7 +61,9 @@ The REST API can be deployed using as a runnable Jar or via Docker. See below fo
 java -jar CROSS-NLP-REST-API.jar
 ```
 
-**Docker** (this needs modification)
+
+
+#### Docker** 
 
 **1.** Whilst inside the `cross-nlp-rest-api` directory, Run the following command to build a image 
 
@@ -67,9 +78,12 @@ Replacing  `<Port>` with the port number you would like the container to be acce
 	docker run -p 2097:8080 cross-nlp-rest-api --cross-nlp-rest-api
 
 
+
 ## Landing Page ##
 
 CROSS NLP REST API has a built in landing page with a bunch of information relating to the API. It can be accessed via `<server-address>:<port-number>`. For example (using the default configuration) `http://localhost:8080/`.
+
+
 
 ## Documentation ##
 
