@@ -297,8 +297,8 @@ body {
 	flex-flow: column;
 	height: 100%;
 	display: flex;
-	font-family: Hind Siliguri, Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-family:  Hind Siliguri;
+	font-size: 14px;
 	line-height: 1.5;
 	color: #4c4b4b;
 	background-color: #fff
@@ -311,13 +311,14 @@ button, input, select, textarea {
 }
 
 a {
-	color: #1763e9;
+	color: #535f74;
+	font-weight : bold;
 	text-decoration: none
 }
 
 a:focus, a:hover {
 	color: #1045a4;
-	text-decoration: underline
+	text-decoration:blink;
 }
 
 a:focus {
@@ -392,8 +393,18 @@ hr {
 	cursor: pointer
 }
 
+ul.b {
+
+list-style:extreme;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: none;
+  
+}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-	font-family: Martel, Times New Roman, Times, serif;
+	font-family: Hind Siliguri;
 	font-weight: 900;
 	line-height: 1.1;
 	color: #48556a
@@ -5011,7 +5022,7 @@ button.close {
 
 .section-container {
 	height : 100%; 
-	padding: 60px 0
+	padding: 5px 0
 }
 
 .section-container-spacer {
@@ -5155,12 +5166,12 @@ button.close {
 
 .h2:after, h2:after {
 	content: "...";
-	color: #1763e9;
+	color: #e5e7ea;
 	display: block
 }
 
 .h3, h3 {
-	color: #000
+	color: #485569;
 }
 
 .h4, h4 {
