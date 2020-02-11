@@ -37,7 +37,7 @@ public class DocumentationConfiguration {
 		info.version(ApiDescription.version);
 		info.license(ApiDescription.license);
 		info.licenseUrl(ApiDescription.licenseUrl);
-		info.termsOfServiceUrl(ApiDescription.termsOfServiceUrl);
+		//info.termsOfServiceUrl(ApiDescription.termsOfServiceUrl);
 		
 		info.contact(new Contact(ApiDescription.contactName,
 				ApiDescription.contactUrl,
