@@ -61,9 +61,10 @@ The REST API can be deployed using as a runnable Jar or via Docker. See below fo
 java -jar CROSS-NLP-REST-API.jar
 ```
 
-
-
 #### Docker
+
+Currently deployment requires the jar to be built sucessfully first following the instruction above. To build the docker image follow the instructions below. 
+ 
 
 **1.** Whilst inside the `cross-nlp-rest-api` directory, Run the following command to build a image 
 
