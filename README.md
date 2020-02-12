@@ -63,10 +63,8 @@ java -jar CROSS-NLP-REST-API.jar
 
 #### Docker
 
-Currently deployment requires the jar to be built sucessfully first following the instruction above. To build the docker image follow the instructions below. 
- 
 
-**1.** Whilst inside the `cross-nlp-rest-api` directory, Run the following command to build a image 
+**1.** Whilst inside the root directory run the following command to build a image 
 
 	docker build -t cross-nlp-rest-api .
 
