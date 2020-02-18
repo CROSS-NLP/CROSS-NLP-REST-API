@@ -88,7 +88,7 @@ CROSS NLP REST API has a built in landing page with a bunch of information relat
 
 Once deployed the REST API also includes documentation in two forms. 
 
-**Swagger (OpenAPI)** : balboa.
+**Swagger (OpenAPI)** :
 
 This can be accessed via `<server-address>:<port-number>/v2/api-docs`. 
 
