@@ -107,3 +107,6 @@ For example (using the default configuration) :
 	http://localhost:8080/swagger-ui.html
 
 
+## Acknowledgements ##
+
+This work utilised tools developed as part of the CROSSMINER Project, which has received funding from the European Unions Horizon 2020 Research and Innovation Programme under the grant agreement No. 732223. See <a href="https://www.crossminer.org/">https://crossminer.org</a> for more information.
